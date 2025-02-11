@@ -1,10 +1,10 @@
 package com.generics.smartwarehousesystem;
 
-public class WarehouseItem {
+public abstract class WarehouseItem {
 
     // Create private instances
-    private String name;
-    private double price;
+    String name;
+    double price;
 
     // Parameterised constructor
     public WarehouseItem(String name, double price){
