@@ -19,7 +19,7 @@ public class CustomObjectMapperTest {
         Person person = CustomObjectMapper.toObject(Person.class, properties);
 
         // Assert the field values
-        assertEquals("Alice", person.getName());
+        assertEquals("Anjali", person.getName());
         assertEquals(30, person.getAge());
     }
 }
